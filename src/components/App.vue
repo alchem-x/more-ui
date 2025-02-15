@@ -1,7 +1,7 @@
 <template>
   <div class="data-get-app-container">
-    <NButton secondary class="open-button" @click="appStore.openDrawer"> ䷩ </NButton>
-    <NDrawer v-model:show="appStore.drawerActive" placement="right" width="450">
+    <NButton secondary class="open-button" @click="appStore.openDrawer"> ䷩</NButton>
+    <NDrawer v-model:show="appStore.drawerActive" placement="right" width="min(100%, 450px)">
       <NDrawerContent title="益之" closable>
         <DrawerBody />
       </NDrawerContent>
